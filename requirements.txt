@@ -1,0 +1,4 @@
+flask==3.0.2
+ultralytics==8.1.28
+torch==2.0.1
+streamlit==1.32.0 
