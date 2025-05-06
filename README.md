@@ -13,9 +13,9 @@ pip install -r requirements.txt
 
 ## Running the Application
 
-1. Start the Flask server:
+1. Start the Streamlit server:
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 2. Open your web browser and navigate to:
@@ -34,12 +34,4 @@ http://localhost:5000
 
 - `app.py`: Main Flask application
 - `templates/index.html`: Frontend web interface
-- `uploads/`: Directory for storing uploaded images
-- `outputs/`: Directory for storing processed images
 - `best.pt`: YOLO model file
-
-## Notes
-
-- The application automatically creates `uploads` and `outputs` directories if they don't exist
-- Uploaded images are renamed to `image1.jpg`
-- Processed images are saved as `result.jpg` 
